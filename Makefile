@@ -19,7 +19,7 @@ cov coverage:
 	$(PYTHON) runtests.py --coverage
 
 dist:
-	-rm -r build dist aioredis.egg-info
+	-rm -r build dist aionsq.egg-info
 	$(PYTHON) setup.py sdist bdist_wheel
 
 clean:
